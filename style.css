@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(215, 215, 215, 0.872);
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+.nav img{
+    /* margin: 50 150px 0 50px; */
+    height: 70px;
+    width: auto;
+}
